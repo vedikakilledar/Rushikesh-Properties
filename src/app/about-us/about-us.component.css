@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Change the font family as needed */
+  
+  }
+  
+  /* Navbar styles (adjust as needed) */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* About Us Section */
+  .about-us-container {
+    text-align: center;
+    padding: 40px 20px; /* Adjust padding as needed */  
+    background-color: bisque;
+  
+  }
+  
+  .about-us-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-container p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    color: #666; /* Adjust text color as needed */
+    font-size: 1.5em;
+    font-family: math;
+  }
+  .mission-vision-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff; /* Change the background color as needed */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .mission-vision-box {
+    flex: 1;
+    padding: 10px;
+
+  }
+  
+  .mission-vision-box img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Add other styles as needed */
+  
+
+.mission-vision-box img {
+    max-width: 95%;
+    height: 80%;
+    margin-bottom: 10px;
+    transition: opacity 0.3s ease-in-out;
+      border: #000;
+    
+}
+
+
+.team-container {
+    display: flex;
+  }
+  .team-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .team-member {
+    margin-right: 20px; /* Adjust the margin as needed */
+    
+
+  }
+  h3{   
+     margin-left: 610px;
+    font-size: 3em;
+    font-family: ui-rounded;
+    margin-top:  16px;;
+}
+  .team-member img {
+    width: 100px; /* Adjust the image width as needed */
+    height: 100px; /* Adjust the image height as needed */
+    border-radius: 50%; /* To make the image circular, if desired */
+    display: block; /* This ensures that the image is a block element */
+    margin: 0 auto; /* Centers the image within its container */
+    
+  }
+  
+  .contact-details {
+    margin-top: 10px; /* Adjust the margin as needed */
+    font-family: 'math';
+    font-size: 1.5em;
+  }
+  

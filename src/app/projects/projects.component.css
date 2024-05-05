@@ -1,0 +1,49 @@
+
+
+  .content-box {
+    display: inline-block;
+    width: 199px;
+    margin: 12px;
+    text-align: center;
+    object-fit: scale-down;
+    border: 2px solid black;
+    padding: 20px;
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 26%; /* Ensure the image doesn't exceed its original size */
+    border: 2px solid #000; /* Black border for the image */
+    border-radius: 8px; /* Border radius for rounded corners */
+    margin-left: 24px;
+  }
+
+  .content-box img {
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
+    border: 2px solid #3498db;
+  }
+
+  .name{
+    margin: 5px 0;
+    font-size: 1.1em;
+    font-family: math;
+  }
+  .location {
+    margin: 5px 0;
+    font-size: 1em;
+    font-family: math;
+  }
+  /* Style for the container holding each data box */
+.data-box {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style for the image */
+.data-box img {
+  width: 100%; /* Ensure the image fills its container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  border: 2px solid #000; /* Black border for the image */
+  border-radius: 8px; /* Border radius for rounded corners */
+}

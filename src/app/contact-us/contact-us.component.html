@@ -1,0 +1,84 @@
+<app-master></app-master>
+
+<div class="formbold-main-wrapper">
+  <!-- Author: FormBold Team -->
+  <!-- Learn More: https://formbold.com -->
+  <div class="formbold-form-wrapper">
+    <form action="javascript:void(0)" (submit)="send()">
+        <div class="formbold-input-flex">
+          <div>
+              <input
+              formControlName="from_name"
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="Enter Your Name"
+              class="formbold-form-input"
+              />
+              <label for="firstname" class="formbold-form-label"> First name </label>
+          </div>
+         
+        </div>
+
+        <div class="formbold-input-flex">
+          <div>
+              <input
+              formControlName="from_email"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+              class="formbold-form-input"
+              />
+              <label for="email" class="formbold-form-label"> Mail </label>
+          </div>
+          <div>
+              <input
+              formControlName="subject"
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="Enter Your Subject"
+              class="formbold-form-input"
+              />
+              <label for="Subject" class="formbold-form-label"> Subject </label>
+          </div>
+        </div>
+
+        <div class="formbold-textarea">
+            <textarea
+            formControlName="message"
+                rows="6"
+                name="message"
+                id="message"
+                placeholder="Write your message..."
+                class="formbold-form-input"
+            ></textarea>
+            <label for="message" class="formbold-form-label"> Message </label>
+        </div>
+
+        <button type="submit" class="formbold-btn">
+            Send Message
+        </button>
+    </form>
+  </div>
+</div><!-- Add this code after your existing form code -->
+<div class="contact-details-wrapper">
+  <div class="contact-details-box">
+    <h2>Contact Details</h2>
+  <h3>ADDRESS</h3><br>  
+      <p> Address:Rushikesh Properties <br>
+                  Anjali-kunj,Dahanukar-A,<br>
+                 Behind Kothrud Stand,Kothrud, <br>
+                 Pune,Maharashtra-411038.  </p> <br>
+                 <h3>EMAIL & PHONE</h3><br>  
+      <p> Email: rushipandav@gmail.com </p><br>  
+      <p>  Phone: 8329826236.</p> <br>
+      <p> Email: sunilpandav@gmail.com </p><br>  
+      <p>  Phone: 9850023994.</p>
+  
+  
+  </div>
+</div>
+
+<app-footer></app-footer>

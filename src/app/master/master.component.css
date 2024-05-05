@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: white; 
+  border: black;
+}
+
+.logo img {
+  height: 130px;
+  margin-left: 200px;
+}
+
+.buttons {
+  display: flex;
+  margin-right: 129px
+}
+
+.buttons button {    
+  margin-right: 27px;
+  height: 47px;
+  width: 129px;
+  color: black;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: ui-monospace;
+  font-size: 1.5em;
+}
+
+.buttons button:last-child {
+  margin-right: 0;
+}

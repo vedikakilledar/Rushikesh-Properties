@@ -1,0 +1,10 @@
+
+<app-master></app-master>
+<div *ngFor="let box of contentBoxes" class="content-box">
+    <img [src]="box.image" alt="{{ box.name }}">
+    <p class="name">{{ box.name }}</p>
+    <p class="location">{{ box.location }}</p>
+  </div>
+  
+
+<app-footer></app-footer>

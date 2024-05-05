@@ -1,0 +1,40 @@
+.footer {
+  background-color: azure; /* Change to your preferred background color */
+ /* Replace 'footer-background.jpg' with your image */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: fit-content;
+   /* Adjust top and bottom padding as needed */
+  color: rgb(44, 39, 39); /* Text color for the footer */
+  position: relative;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25PX;
+  margin-top: 300px;
+}
+
+.footer-logo img {
+  width: 140px;
+  height: 120px;
+  display: block;
+  margin-left: 20px; /* Adjust the margin for the logo */
+}
+
+.contact-details {
+  text-align: right; /* Align contact details to the right */
+  margin-left: auto; /* Push contact details and copyright to the right */
+  margin-right: 20px; /* Adjust the margin for the contact details */
+  font-family: 'Math'; /* Use a common font for compatibility */
+}
+
+.Copyright {
+  text-align: center; /* Align copyright to the right */
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
